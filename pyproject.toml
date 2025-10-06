@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lightning-archive"
+version = "0.1.0"
+description = "Tool for archiving social media data for lightning strike reconstruction"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "requests",
+    "opencv-python",
+    "pandas",
+    "google-api-python-client",
+    "tweepy",
+    "Pillow",
+    "imagehash",
+    "yt-dlp",
+    "youtube-dl",
+    "pytube",
+    "praw",
+    "python-dotenv"
+]
+
+[project.scripts]
+lightning-archive = "lightning_archive.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]

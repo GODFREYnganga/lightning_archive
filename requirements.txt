@@ -1,0 +1,12 @@
+requests>=2.25.0
+python-dotenv>=0.15.0
+pandas>=1.1.0
+praw>=7.0.0
+google-api-python-client>=2.0.0
+youtube-dl>=2021.12.17
+pytube>=12.1.0
+opencv-python>=4.5.0
+numpy>=1.19.0
+matplotlib>=3.3.0
+pillow>=8.0.0
+imagehash>=4.2.0
